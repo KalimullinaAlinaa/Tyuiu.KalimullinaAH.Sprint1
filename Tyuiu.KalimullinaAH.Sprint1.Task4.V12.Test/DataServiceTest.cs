@@ -1,21 +1,21 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.KalimullinaAH.Sprint1.Task3.V13.Lib;
-namespace Tyuiu.KalimullinaAH.Sprint1.Task3.V13.Test
+using Tyuiu.KalimullinaAH.Sprint1.Task4.V12.Lib;
+
+namespace Tyuiu.KalimullinaAH.Sprint1.Task4.V12.Test
 {
     [TestClass]
     public class DataServiceTest
     {
         [TestMethod]
         public void ValidExpression()
-
         {
             DataService ds = new DataService();
-            double num = 123;
-            double wait = 6;
-            var res = ds.MultiplyOfDigits(num);
+            double x = 2;
+            double y = 9;
+            double wait = 0;
+            var res = ds.Calculate(x,y);
             Assert.AreEqual(wait, res);
-
 
         }
     }

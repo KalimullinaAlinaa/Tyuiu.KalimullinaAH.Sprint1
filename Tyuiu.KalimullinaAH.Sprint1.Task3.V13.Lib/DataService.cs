@@ -7,17 +7,20 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.KalimullinaAH.Sprint1.Task3.V13.Lib
 {
-    public class DataService : ISprint1Task1V13
+    public class DataService : ISprint1Task3V13
     {
-        public double Calculate(double x)
+        public double MultiplyOfDigits(double number)
         {
-            string numberStr = x.ToString();
-            int n1 = int.Parse(numberStr[0].ToString()); // Первая цифра
-            int n2 = int.Parse(numberStr[1].ToString()); // Вторая цифра
-            int n3 = int.Parse(numberStr[2].ToString()); // Третья цифра
+          
+           
+                string numberStr = number.ToString();
+                int n1 = int.Parse(numberStr[0].ToString()); // Первая цифра
+                int n2 = int.Parse(numberStr[1].ToString()); // Вторая цифра
+                int n3 = int.Parse(numberStr[2].ToString()); // Третья цифра
 
-            int p = n1 * n2 * n3;
-            return p;
+                int p = n1 * n2 * n3;
+                return p;
+           
         }
     }
 }
