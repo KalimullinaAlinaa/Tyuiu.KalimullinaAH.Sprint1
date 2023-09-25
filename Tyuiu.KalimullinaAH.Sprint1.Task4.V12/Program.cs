@@ -32,9 +32,9 @@ namespace Tyuiu.KalimullinaAH.Sprint1.Task4.V12
             double y = Convert.ToDouble(Console.ReadLine());
             var res = ds.Calculate(x, y);
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(Math.Round(res,3));
+            Console.WriteLine("Math.Sin(Math.PI * x) / (x + Math.Sqrt  (Math.Abs(y) = " + Math.Round(res,3));
 
             Console.ReadKey();
         }
