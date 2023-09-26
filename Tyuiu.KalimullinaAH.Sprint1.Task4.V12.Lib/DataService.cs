@@ -11,7 +11,7 @@ namespace Tyuiu.KalimullinaAH.Sprint1.Task4.V12.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = Math.Sin(Math.PI * x) / (x + Math.Sqrt(Math.Abs(y)));
+            var res =Math.Round( Math.Sin(Math.PI * x) / (x + Math.Sqrt(Math.Abs(y))),3);
             return res;
         }
     }
