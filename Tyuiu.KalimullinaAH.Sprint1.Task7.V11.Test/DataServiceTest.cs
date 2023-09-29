@@ -11,9 +11,9 @@ namespace Tyuiu.KalimullinaAH.Sprint1.Task7.V11.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2;
+            double x = 3;
             double y = 7;
-            double wait = 5.591;
+            double wait = 2.007;
             var res = ds.Calculate(x,y);
             Assert.AreEqual(wait, res);
 
